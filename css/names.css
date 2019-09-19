@@ -3,25 +3,29 @@
     margin: 0;
 }
 
+.ruth {
+    display: flex;
+}
+
 #A {
     display: none;
 }
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="A"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="A"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="A"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="A"] span:nth-child(4) {
     height: 0;
 }
 
@@ -60,25 +64,25 @@
     display: none;
 }
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="B"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="B"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="B"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="B"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="B"] span:nth-child(5) {
     height: 0;
 }
 
@@ -131,21 +135,21 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="C"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="C"]el span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="C"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="C"] span:nth-child(4) {
     height: 0;
 }
 
@@ -185,25 +189,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="D"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="D"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="D"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="D"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="D"] span:nth-child(5) {
     height: 0;
 }
 
@@ -233,6 +237,7 @@
     height: 2px;
     background-color: white;
 }
+
 #D:checked~.togglebox label span:nth-child(4) {
     transform: rotate(90deg);
     top: 25px;
@@ -247,21 +252,21 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="E"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="E"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="E"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="E"] span:nth-child(4) {
     height: 0;
 }
 
@@ -306,25 +311,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="F"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="F"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="F"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="F"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="F"] span:nth-child(5) {
     height: 0;
 }
 
@@ -364,29 +369,29 @@
     display: none;
 }
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="G"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="G"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="G"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="G"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="G"] span:nth-child(5) {
     height: 0;
 }
 
-.togglebox label span:nth-child(6) {
+.togglebox [for="G"] span:nth-child(6) {
     height: 0;
 }
 
@@ -442,25 +447,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="H"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="H"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="H"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="H"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="H"] span:nth-child(5) {
     height: 0;
 }
 
@@ -504,21 +509,21 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="I"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="I"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="I"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="I"] span:nth-child(4) {
     height: 0;
 }
 
@@ -554,25 +559,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="J"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="J"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="J"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="J"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="J"] span:nth-child(5) {
     height: 0;
 }
 
@@ -617,21 +622,21 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="K"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="K"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="K"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="K"] span:nth-child(4) {
     height: 0;
 }
 
@@ -671,25 +676,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="L"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="L"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="L"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="L"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="L"] span:nth-child(5) {
     height: 0;
 }
 
@@ -728,21 +733,21 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="M"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="M"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="M"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="M"] span:nth-child(4) {
     height: 0;
 }
 
@@ -786,25 +791,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="N"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="N"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="N"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="N"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="N"] span:nth-child(5) {
     height: 0;
 }
 
@@ -849,25 +854,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="O"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="O"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="O"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="O"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="O"] span:nth-child(5) {
     height: 0;
 }
 
@@ -879,7 +884,7 @@
     width: 30px;
     height: 2px;
     background-color: white;
-    
+
 
 }
 
@@ -909,7 +914,7 @@
 }
 
 #O:checked~.togglebox label span:nth-child(5) {
-   display: none;
+    display: none;
 }
 
 
@@ -918,28 +923,29 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="Ö"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="Ö"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="Ö"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="Ö"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="Ö"] span:nth-child(5) {
     height: 0;
 }
-.togglebox label span:nth-child(6) {
+
+.togglebox [for="Ö"] span:nth-child(6) {
     height: 0;
 }
 
@@ -988,6 +994,7 @@
     height: 2px;
     background-color: white;
 }
+
 #Ö:checked~.togglebox label span:nth-child(6) {
     transform: rotate(90deg);
     top: 5px;
@@ -1002,25 +1009,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="P"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="P"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="P"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="P"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="P"] span:nth-child(5) {
     height: 0;
 }
 
@@ -1069,25 +1076,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="Q"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="Q"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="Q"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="Q"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="Q"] span:nth-child(5) {
     height: 0;
 }
 
@@ -1116,7 +1123,7 @@
     left: 25px;
     width: 30px;
     height: 2px;
-    background-color:white;
+    background-color: white;
 }
 
 #Q:checked~.togglebox label span:nth-child(4) {
@@ -1125,7 +1132,7 @@
     left: 10px;
     width: 30px;
     height: 2px;
-    background-color:white;
+    background-color: white;
 }
 
 #Q:checked~.togglebox label span:nth-child(5) {
@@ -1142,39 +1149,57 @@
 }
 
 
-.togglebox label span:nth-child(1) {
-
+.togglebox [for="R"] span:nth-child(1) {
     top: 10px;
+    animation-name: ruth1;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.togglebox label span:nth-child(2) {
-
+.togglebox [for="R"] span:nth-child(2) {
     top: 25px;
+    animation-name: ruth2;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="R"] span:nth-child(3) {
     top: 40px;
+    animation-name: ruth3;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="R"] span:nth-child(4) {
     height: 0;
+    animation-name: ruth4;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="R"] span:nth-child(5) {
     height: 0;
+    animation-name: ruth5;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 
-#R:checked~.togglebox label span:nth-child(1) {
+/* #R:checked~.togglebox label span:nth-child(1) {
     transform: rotate(0deg);
     top: 5px;
     left: 10px;
     height: 2px;
     width: 30px;
     background-color: white;
-}
+} */
 
-#R:checked~.togglebox label span:nth-child(2) {
+/* #R:checked~.togglebox label span:nth-child(2) {
     transform: rotate(90deg);
     top: 25px;
     left: -10px;
@@ -1207,103 +1232,33 @@
     left: 10px;
     height: 2px;
     background-color: white;
-}
-
-#R2 {
-    display: none;
-}
+} */
 
 
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-.togglebox label span:nth-child(5) {
-    height: 0;
-}
-
-
-#R2:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(0deg);
-    top: 5px;
-    left: 10px;
-    height: 2px;
-    width: 30px;
-    background-color: white;
-}
-
-#R2:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: -10px;
-    height: 2px;
-    background-color: white;
-}
-
-#R2:checked~.togglebox label span:nth-child(3) {
-    transform: rotate(90deg);
-    top: 18px;
-    left: 26px;
-    width: 25px;
-    height: 2px;
-    background-color: white;
-}
-
-#R2:checked~.togglebox label span:nth-child(4) {
-    transform: rotate(0deg);
-    top: 30px;
-    width: 30px;
-    left: 10px;
-    height: 2px;
-    background-color: white;
-}
-
-#R2:checked~.togglebox label span:nth-child(5) {
-    transform: rotate(28deg);
-    top: 37px;
-    width: 30px;
-    left: 10px;
-    height: 2px;
-    background-color: white;
-}
 #S {
     display: none;
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="S"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="S"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="S"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="S"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="S"] span:nth-child(5) {
     height: 0;
 }
 
@@ -1358,25 +1313,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="T"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="T"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="T"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="T"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="T"] span:nth-child(5) {
     height: 0;
 }
 
@@ -1410,88 +1365,41 @@
     display: none;
 }
 
-#T2 {
-    display: none;
-}
-
-
-.togglebox label span:nth-child(1) {
-
-    top: 10px;
-}
-
-.togglebox label span:nth-child(2) {
-
-    top: 25px;
-}
-
-.togglebox label span:nth-child(3) {
-    top: 40px;
-}
-
-.togglebox label span:nth-child(4) {
-    height: 0;
-}
-
-.togglebox label span:nth-child(5) {
-    height: 0;
-}
-
-
-#T2:checked~.togglebox label span:nth-child(1) {
-    transform: rotate(0deg);
-    top: 5px;
-    left: 8px;
-    height: 2px;
-    width: 35px;
-    background-color: white;
-}
-
-#T2:checked~.togglebox label span:nth-child(2) {
-    transform: rotate(90deg);
-    top: 25px;
-    left: 5px;
-    height: 2px;
-    background-color: white;
-}
-
-#T2:checked~.togglebox label span:nth-child(3) {
-    display: none;
-}
-
-#T2:checked~.togglebox label span:nth-child(4) {
-    display: none;
-}
-
-#T2:checked~.togglebox label span:nth-child(5) {
-    display: none;
-}
-
 
 #U {
     display: none;
 }
 
 
-.togglebox label span:nth-child(1) {
-
+.togglebox [for="U"] span:nth-child(1) {
+    animation-name: ruth6;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
-
+.togglebox [for="U"] span:nth-child(2) {
+    animation-name: ruth7;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="U"] span:nth-child(3) {
+    animation-name: ruth8;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="U"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="U"] span:nth-child(5) {
     height: 0;
 }
 
@@ -1534,25 +1442,25 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="V"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="V"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="V"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="V"] span:nth-child(4) {
     height: 0;
 }
 
-.togglebox label span:nth-child(5) {
+.togglebox [for="V"] span:nth-child(5) {
     height: 0;
 }
 
@@ -1590,21 +1498,21 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="W"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="W"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="W"] span:nth-child(3) {
     top: 40px;
 }
 
-.togglebox label span:nth-child(4) {
+.togglebox [for="W"] span:nth-child(4) {
     height: 0;
 }
 
@@ -1648,17 +1556,17 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="X"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="X"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="X"] span:nth-child(3) {
 
     top: 40px;
 }
@@ -1686,17 +1594,17 @@
 }
 
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="Y"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="Y"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="Y"] span:nth-child(3) {
 
     top: 40px;
 }
@@ -1737,7 +1645,7 @@
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    background-color:black;
+    background-color: black;
     position: relative;
     display: block;
     margin: 10px;
@@ -1752,17 +1660,17 @@
     transition: transform 1s;
 }
 
-.togglebox label span:nth-child(1) {
+.togglebox [for="Z"] span:nth-child(1) {
 
     top: 10px;
 }
 
-.togglebox label span:nth-child(2) {
+.togglebox [for="Z"] span:nth-child(2) {
 
     top: 25px;
 }
 
-.togglebox label span:nth-child(3) {
+.togglebox [for="Z"] span:nth-child(3) {
 
     top: 40px;
 }
@@ -1798,5 +1706,116 @@
 
 }
 
+@keyframes ruth1 {
+    0% {
+        top: 10px;
+    }
 
+    100% {
+        transform: rotate(0deg);
+        top: 5px;
+        left: 10px;
+        height: 2px;
+        width: 30px;
+        background-color: white;
+    }
+}
 
+@keyframes ruth2 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: -10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes ruth3 {
+    0% {
+        top: 10px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 18px;
+        left: 27px;
+        width: 25px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes ruth4 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 30px;
+        width: 30px;
+        left: 10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+@keyframes ruth5 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+        transform: rotate(28deg);
+        top: 37px;
+        width: 30px;
+        left: 10px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes ruth6 {
+    0% {
+        top: 25px;
+    }
+
+    100% {
+    transform: rotate(90deg);
+    top: 25px;
+    left: -10px;
+    height: 2px;
+    background-color: white;
+    }
+}
+@keyframes ruth7 {
+    0% {
+        top: 40px;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 25px;
+        left: 20px;
+        height: 2px;
+        background-color: white;
+    }
+}
+@keyframes ruth8 {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+    transform: rotate(0deg);
+    top: 45px;
+    width: 30px;
+    left: 10px;
+    height: 2px;
+    background-color: white;
+    }
+}
